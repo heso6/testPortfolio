@@ -1,8 +1,68 @@
-.container{
- margin-left: -17px;
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  html {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
 }
-.btn-outline-success{
-  font-size: 20px;
-  padding: 10px;
- margin: 3px;
+ footer{
+    background-color: #333;
+    color: #FFF8DC;
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+body{
+  background-color: gray;
+}
+.jackInTheBox {
+    position: absolute;
+    font-size: 60px !important;
+    top: 30%;
+    left: 15%;
+    color:  #FFF8DC;
+    transform: translate(-50%, -50%);
+   animation-duration:2s; 
+   line-height: 70px;
+   font-weight: bold;
+   height: 50%;
+}
+img{
+  max-width: 100%;
+    height: auto;
+}
+ul.topnav {
+  display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  color: #008000;}
+
+ul.topnav li.right {
+  float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
 }
