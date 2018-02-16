@@ -31,13 +31,14 @@ body{
    position: absolute;
     font-size: 35px;
     top: 30%;
-    left: 15%;
+    left: 14%;
     color: #D3D3D3;
     transform: translate(-50%, -50%);
    animation-duration:2s; 
-   line-height: 70px;
+   line-height: 65px;
    font-weight: bold;
-   height: 50%;
+   height: 90%;
+   text-shadow: 2px 2px green;
 }
 img{
  width: 100%;
