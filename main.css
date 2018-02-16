@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
   html {
     transform: rotate(-90deg);
     transform-origin: left top;
@@ -16,17 +16,23 @@
     padding: 10px;
     font-weight: 700;
     font-size: 15px;
+
+}
+footer p{
+
+margin-top: 20px
 }
 
 body{
-  background-color: gray;
+  background-color: #333;
 }
 .jackInTheBox {
-    position: absolute;
-    font-size: 60px !important;
+  display: inline-block;
+   position: absolute;
+    font-size: 35px;
     top: 30%;
     left: 15%;
-    color:  #FFF8DC;
+    color: #D3D3D3;
     transform: translate(-50%, -50%);
    animation-duration:2s; 
    line-height: 70px;
@@ -34,7 +40,7 @@ body{
    height: 50%;
 }
 img{
-  max-width: 100%;
+ width: 100%;
     height: auto;
 }
 ul.topnav {
@@ -44,6 +50,7 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    font-size: 22px;
 }
 
 ul.topnav li {float: left;}
