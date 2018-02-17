@@ -1,52 +1,37 @@
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
-  html {
-    transform: rotate(-90deg);
-    transform-origin: left top;
-    width: 100vh;
-    overflow-x: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-  }
-}
- footer{
-    background-color: #333;
-    color: #FFF8DC;
-    text-align: center;
-    padding: 10px;
-    font-weight: 700;
-    font-size: 15px;
-
-}
-footer p{
-
-margin-top: 20px
-}
 
 body{
-  background-color: #333;
+	margin: -6px;
 }
-.jackInTheBox {
-  display: inline-block;
+footer{
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 0;
+	background-color: #333;
+}
+.navbar-fixed-top{
+	background-color: #333;
+}
+ .jackInTheBox{
+ /* display: inline-block;
    position: absolute;
-    font-size: 35px;
-    top: 30%;
-    left: 14%;
+    font-size: 40px;
+    top: 20%;
+    left: 30%;
     color: #D3D3D3;
     transform: translate(-50%, -50%);
    animation-duration:2s; 
-   line-height: 65px;
+   line-height: 56px;
    font-weight: bold;
    height: 90%;
-   text-shadow: 2px 2px #008000;
+   text-shadow: 2px 2px #008000;*/
+
 }
-img{
- width: 100%;
-    height: auto;
+.collapsed{
+	background-color: green;
 }
-ul.topnav {
-  display: block;
-    list-style-type: none;
+#navbar{
+ 
+    color: #008000;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -54,23 +39,17 @@ ul.topnav {
     font-size: 22px;
 }
 
-ul.topnav li {float: left;}
-
-ul.topnav li a {
-    display: block;
-    color: white;
+.page-wrap{
+    position: relative;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    font-size: 30px;
+
+    text-shadow: 2px 2px red;
 }
-
-ul.topnav li a:hover:not(.active) {
-  color: #008000;}
-
-ul.topnav li.right {
-  float: right;}
-
-@media screen and (max-width: 600px){
-    ul.topnav li.right, 
-    ul.topnav li {float: none;}
+#top-left {
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    animation-duration:2s;
+    color: #D3D3D3;
 }
