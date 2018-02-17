@@ -1,6 +1,7 @@
 
 body{
-	margin: -6px;
+	margin: -4px;
+  background-color:#333; 
 }
 
 footer p{
@@ -13,6 +14,8 @@ text-align: center;
 }
 .navbar-fixed-top{
 	background-color: #333;
+  /*border: 2px solid black;*/
+    border-bottom:2px solid black;
 }
 
 }
@@ -32,10 +35,10 @@ text-align: center;
 .page-wrap{
     position: relative;
     text-align: center;
-    
-
     text-shadow: 2px 2px black;
 }
+
+
 #top-left {
     position: absolute;
     top: 60px;
@@ -44,4 +47,5 @@ text-align: center;
     color: #D3D3D3;
     font-size:4vw;
     font-weight: bold;
+
 }
