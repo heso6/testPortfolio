@@ -2,23 +2,25 @@
 body{
 	margin: -4px;
   background-color:#333; 
+
 }
 
 footer p{
-  border: 2px solid black;
-    border-radius: 3px;
+  border-bottom:2px solid black;
   font-size: 20px;
   padding-top: 2px;
   background-color: #333;
-text-align: center;
+  text-align: center;
+  color: #D3D3D3;
+  margin: 0%;
 }
 .navbar-fixed-top{
 	background-color: #333;
-  /*border: 2px solid black;*/
-    border-bottom:2px solid black;
-}
+
+   border-bottom:2px solid black;
 
 }
+
 .collapsed{
 	background-color: green;
 }
@@ -38,6 +40,11 @@ text-align: center;
     text-shadow: 2px 2px black;
 }
 
+ul.navbar-nav li a:hover:not(.active) {
+  color: #008000;
+}
+
+
 
 #top-left {
     position: absolute;
@@ -45,7 +52,12 @@ text-align: center;
     left: 40px;
     animation-duration:2s;
     color: #D3D3D3;
-    font-size:4vw;
+    font-size:3vw;
     font-weight: bold;
 
+}
+.container {
+    width: 100%;
+    height: auto;
+    padding: 0%;
 }
