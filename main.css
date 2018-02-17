@@ -30,7 +30,7 @@ body{
   display: inline-block;
    position: absolute;
     font-size: 35px;
-    top: 20%;
+    top: 30%;
     left: 14%;
     color: #D3D3D3;
     transform: translate(-50%, -50%);
@@ -38,7 +38,7 @@ body{
    line-height: 65px;
    font-weight: bold;
    height: 90%;
-   text-shadow: 2px 2px red;
+   text-shadow: 2px 2px #008000;
 }
 img{
  width: 100%;
