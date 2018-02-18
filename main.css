@@ -1,5 +1,6 @@
 
 body{
+
 	margin: -4px;
   background-color:#333; 
 
@@ -14,24 +15,25 @@ footer p{
   color: #D3D3D3;
   margin: 0%;
 }
+
 .navbar-fixed-top{
 	background-color: #333;
 
    border-bottom:2px solid black;
 
 }
-
 .collapsed{
-	/*background-color: green;*/
-}
-#navbar{
  
+}
+
+#navbar{
     color: #008000;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
     font-size: 22px;
+
 }
 
 .page-wrap{
@@ -41,11 +43,10 @@ footer p{
 }
 
 ul.navbar-nav li a:hover:not(.active) {
-  color: #008000;
+  color: #00C851;
+  border-style: dotted 6px;
+
 }
-
-
-
 #top-left {
     position: absolute;
     top: 60px;
@@ -60,4 +61,11 @@ ul.navbar-nav li a:hover:not(.active) {
     width: 100%;
     height: auto;
     padding: 0%;
+}
+.icon-bar {
+   background-color:#b2dbfb !important;
+}
+a{
+  padding-left: 50px !important;
+  padding-right: 50px !important;
 }
