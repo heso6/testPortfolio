@@ -57,6 +57,9 @@ ul.navbar-nav li a:hover:not(.active) {
     font-weight: bold;
 
 }
+.bounceInRight{
+  animation-duration:3s;
+}
 .container {
     width: 100%;
     height: auto;
@@ -68,4 +71,8 @@ ul.navbar-nav li a:hover:not(.active) {
 a{
   padding-left: 50px !important;
   padding-right: 50px !important;
+}
+ul li img{
+      vertical-align: middle;
+    height: 64px;
 }
