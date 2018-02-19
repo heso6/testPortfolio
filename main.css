@@ -4,6 +4,7 @@ body{
 	margin: -4px;
   background-color:#333; 
 
+
 }
 
 footer p{
@@ -18,13 +19,10 @@ footer p{
 
 .navbar-fixed-top{
 	background-color: #333;
-
    border-bottom:2px solid black;
 
 }
-.collapsed{
- 
-}
+
 
 #navbar{
     color: #008000;
@@ -34,6 +32,9 @@ footer p{
     background-color: #333;
     font-size: 22px;
 
+}
+.container>.navbar-header {
+    margin-left: 0px;
 }
 
 .page-wrap{
@@ -52,27 +53,35 @@ ul.navbar-nav li a:hover:not(.active) {
     top: 60px;
     left: 40px;
     animation-duration:2s;
-    color: #D3D3D3;
+    color: #b2dbfb;
     font-size:3vw;
     font-weight: bold;
 
 }
-.bounceInRight{
+.navbar-fixed-top{
+  margin-left: 0px;
+}
+#logo{
+  /*vertical-align: text-top; */
+  max-width: 100%;
   animation-duration:3s;
+
 }
 .container {
     width: 100%;
     height: auto;
     padding: 0%;
+    
 }
 .icon-bar {
    background-color:#b2dbfb !important;
 }
 a{
-  padding-left: 50px !important;
-  padding-right: 50px !important;
+  padding-left: 36px !important;
+  padding-right: 36px !important;
 }
-ul li img{
-      vertical-align: middle;
-    height: 64px;
-}
+/*.czopek{
+  margin: 0px;
+ 
+  height: 64px;
+}*/
