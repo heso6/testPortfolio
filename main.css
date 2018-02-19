@@ -50,8 +50,8 @@ ul.navbar-nav li a:hover:not(.active) {
 }
 #top-left {
     position: absolute;
-    top: 60px;
-    left: 40px;
+    top:20% ;
+    left: 10%;
     animation-duration:2s;
     color: #b2dbfb;
     font-size:3vw;
@@ -80,8 +80,3 @@ a{
   padding-left: 36px !important;
   padding-right: 36px !important;
 }
-/*.czopek{
-  margin: 0px;
- 
-  height: 64px;
-}*/
