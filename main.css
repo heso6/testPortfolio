@@ -1,35 +1,40 @@
 
 body{
+
 	margin: -4px;
   background-color:#333; 
+
+
 }
 
 footer p{
-  border: 2px solid black;
-    border-radius: 3px;
+  border-bottom:2px solid black;
   font-size: 20px;
   padding-top: 2px;
   background-color: #333;
-text-align: center;
-}
-.navbar-fixed-top{
-	background-color: #333;
-  /*border: 2px solid black;*/
-    border-bottom:2px solid black;
+  text-align: center;
+  color: #D3D3D3;
+  margin: 0%;
 }
 
+.navbar-fixed-top{
+	background-color: #333;
+   border-bottom:2px solid black;
+
 }
-.collapsed{
-	background-color: green;
-}
+
+
 #navbar{
- 
     color: #008000;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
     font-size: 22px;
+
+}
+.container>.navbar-header {
+    margin-left: 0px;
 }
 
 .page-wrap{
@@ -38,14 +43,40 @@ text-align: center;
     text-shadow: 2px 2px black;
 }
 
+ul.navbar-nav li a:hover:not(.active) {
+  color: #00C851;
+  border-style: dotted 6px;
 
+}
 #top-left {
     position: absolute;
-    top: 60px;
-    left: 40px;
+    top:20% ;
+    left: 10%;
     animation-duration:2s;
-    color: #D3D3D3;
-    font-size:4vw;
+    color: #b2dbfb;
+    font-size:3vw;
     font-weight: bold;
 
+}
+.navbar-fixed-top{
+  margin-left: 0px;
+}
+#logo{
+  /*vertical-align: text-top; */
+  max-width: 100%;
+  animation-duration:3s;
+
+}
+.container {
+    width: 100%;
+    height: auto;
+    padding: 0%;
+    
+}
+.icon-bar {
+   background-color:#b2dbfb !important;
+}
+a{
+  padding-left: 36px !important;
+  padding-right: 36px !important;
 }
