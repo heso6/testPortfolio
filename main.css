@@ -28,6 +28,7 @@ footer p{
   overflow: hidden;
   background-color: #333;
   font-size: 22px;
+
 }
 .container>.navbar-header {
   margin-left: 0px;
@@ -41,7 +42,7 @@ footer p{
 }
 
 ul.navbar-nav li a:hover:not(.active) {
-  color: #00C851;
+  color: #4C70BA;
   border-style: dotted 6px;
 
 }
@@ -49,7 +50,7 @@ ul.navbar-nav li a:hover:not(.active) {
   position: absolute;
   top:40% ;
   left: 10%;
-  animation-duration:2s;
+ animation-duration: 2s;
   color: #D3D3D3;
   font-size:3vw;
   font-weight: bold;
@@ -57,14 +58,16 @@ ul.navbar-nav li a:hover:not(.active) {
 }
 .navbar-fixed-top{
   margin-left: 0px;
+ 
 }
+
 #logo{
  border: 2px solid black;
  border-top-right-radius: 25px;
  border-bottom-right-radius: 25px;
  max-width: 100%;
- animation-duration:3s;
- width: 203px;
+ animation-duration:1s;
+ width: 180px;
  height: 64px;
 
 }
@@ -93,7 +96,7 @@ a{
 
 #contact .form-control{
   border-radius: 0;
-  /*border:2px solid #1e1e1e;*/
+ 
 }
 
 #contact button{
@@ -120,6 +123,9 @@ a{
 .accent-1{
   text-align: center;
 }
+.accent-1 h3{
+  color: #4C70BA;
+}
 @media (min-width: 992px){
   .col-md-7 {
     width: 58.33333333%;
@@ -128,8 +134,11 @@ a{
 }  
 .md-form{
   color: #D3D3D3;
-  font-size: 15px;
+  font-size: 10px;
 }
 .md-textarea{
   width: 100% !important;
+}
+.md-form i{
+  font-size: 20px;
 }
