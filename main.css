@@ -1,10 +1,8 @@
 
 body{
 
-	margin: -4px;
+  margin: -4px;
   background-color:#333; 
-
-
 }
 
 footer p{
@@ -18,29 +16,28 @@ footer p{
 }
 
 .navbar-fixed-top{
-	background-color: #333;
-   border-bottom:2px solid black;
-
+  background-color: #333;
+  border-bottom:2px solid black;
 }
 
 
 #navbar{
-    color: #008000;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    font-size: 22px;
-
+  color: #008000;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-size: 22px;
 }
 .container>.navbar-header {
-    margin-left: 0px;
+  margin-left: 0px;
 }
 
 .page-wrap{
-    position: relative;
-    text-align: center;
-    text-shadow: 2px 2px black;
+  position: relative;
+  text-align: center;
+  text-shadow: 2px 2px black;
+
 }
 
 ul.navbar-nav li a:hover:not(.active) {
@@ -49,34 +46,90 @@ ul.navbar-nav li a:hover:not(.active) {
 
 }
 #top-left {
-    position: absolute;
-    top:20% ;
-    left: 10%;
-    animation-duration:2s;
-    color: #b2dbfb;
-    font-size:3vw;
-    font-weight: bold;
+  position: absolute;
+  top:40% ;
+  left: 10%;
+  animation-duration:2s;
+  color: #D3D3D3;
+  font-size:3vw;
+  font-weight: bold;
 
 }
 .navbar-fixed-top{
   margin-left: 0px;
 }
 #logo{
-  /*vertical-align: text-top; */
-  max-width: 100%;
-  animation-duration:3s;
+ border: 2px solid black;
+ border-top-right-radius: 25px;
+ border-bottom-right-radius: 25px;
+ max-width: 100%;
+ animation-duration:3s;
+ width: 203px;
+ height: 64px;
 
 }
 .container {
-    width: 100%;
-    height: auto;
-    padding: 0%;
-    
+  width: 100%;
+  height: 90%;
+  padding: 0%;
 }
 .icon-bar {
-   background-color:#b2dbfb !important;
+ background-color:#b2dbfb !important;
 }
 a{
   padding-left: 36px !important;
   padding-right: 36px !important;
+}
+
+#contact{
+  background-image: url('https://macinteract.com/wp-content/uploads/2016/02/footer-background.jpg') ;
+  font-family: 'Roboto', sans-serif;
+}
+
+#contact .well{
+  margin-top:30px;
+  border-radius:0;
+}
+
+#contact .form-control{
+  border-radius: 0;
+  /*border:2px solid #1e1e1e;*/
+}
+
+#contact button{
+  margin-bottom: 10px;
+  background-color: #4C70BA;
+  color: #D3D3D3;
+  width: 100px;
+}
+
+#contact .row{
+  margin-bottom:30px;
+  margin-right: 0px; 
+  margin-left: 0px; 
+}
+
+}
+
+@media (max-width: 768px) { 
+  #contact iframe {
+    margin-bottom: 15px;
+  }
+
+}
+.accent-1{
+  text-align: center;
+}
+@media (min-width: 992px){
+  .col-md-7 {
+    width: 58.33333333%;
+    padding-top: 133px;
+  }
+}  
+.md-form{
+  color: #D3D3D3;
+  font-size: 15px;
+}
+.md-textarea{
+  width: 100% !important;
 }
