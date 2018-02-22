@@ -63,7 +63,7 @@ ul.navbar-nav li a:hover:not(.active) {
  border-top-right-radius: 25px;
  border-bottom-right-radius: 25px;
  max-width: 100%;
- animation-duration:3s;
+ animation-duration:1s;
  width: 203px;
  height: 64px;
 
