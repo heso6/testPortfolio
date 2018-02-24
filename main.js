@@ -18,7 +18,6 @@ var scrollp=0;
   });
 }(jQuery));
 
-
 // function initMap() {
 //   var map = new google.maps.Map(document.getElementById('map'), {
 //     center: {lat: 52.1787455, lng: 21.003591599999936},
@@ -34,3 +33,20 @@ var scrollp=0;
 
 //         });
 //       }
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+$(document).ready(function(){
+  $('a[href^="#"]').on('click',function (e) {
+      e.preventDefault();
+
+      var target = this.hash;
+      var $target = $(target);
+
+      $('html, body').stop().animate({
+          'scrollTop': $target.offset().top
+      }, 900, 'swing', function () {
+          window.location.hash = target;
+      });
+  });
+});
