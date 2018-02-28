@@ -1,0 +1,346 @@
+
+body{
+
+  margin: -4px;
+  background-color:#333; 
+}
+
+footer{
+  border-bottom:2px solid black;
+  font-size: 15px;
+  padding-top: 2px;
+  text-align: center;
+  color: #009fff;
+  margin: 0%;
+  font-family: "Avantgarde", TeX Gyre Adventor, URW Gothic L, sans-serif
+}
+
+.navbar-fixed-top{
+  background-color: rgba(0, 0, 0, 0.0);
+  box-shadow:none;
+}
+.navbar-fixed-top, .navbar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  height: 30px;
+}
+.navbar {
+
+  min-height: 30px;
+  margin-bottom:23px;
+
+}
+#navbar{
+  color: #008000;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 22px;
+}
+.container>.navbar-header {
+  margin-left: 0px;
+  height: 30px;
+
+}
+
+.page-wrap{
+  position: relative;
+  text-align: center;
+  text-shadow: 2px 2px black;
+
+}
+
+ul.navbar-nav li a:hover:not(.active) {
+  color: white;
+  text-shadow: 7px 7px black;
+}
+#top-left {
+  position: absolute;
+  top:40% ;
+  left: 10%;
+  animation-duration:2s;
+  color: #D3D3D3;
+  font-size:3vw;
+  font-weight: bold;
+
+}
+.navbar-fixed-top{
+  margin-left: 0px;
+}
+#logo{
+ border: 2px solid black;
+ border-top-right-radius: 25px;
+ border-bottom-right-radius: 25px;
+ max-width: 100%;
+ animation-duration:1s;
+ width: 203px;
+ height: 64px;
+
+}
+.navbar-toggle {
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  padding: 0px 18px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid transparent;
+  border-radius: 0px;
+}
+
+
+
+.container {
+  width: 100%;
+  height: 90%;
+  padding: 0%;
+}
+.icon-bar {
+ background-color:#b2dbfb !important;
+}
+a{
+  padding-left: 36px !important;
+  padding-right: 36px !important;
+}
+
+#skills{
+  background-image: url('https://macinteract.com/wp-content/uploads/2016/02/footer-background.jpg') ;
+  font-family: 'Roboto', sans-serif;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2 {
+  font-size: 25px;
+  color: #009fff;
+  text-align: center;
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  color: #db3a34;
+}
+
+.bar {
+  width: 90%;
+  height: 30px;
+  background: #fff;
+  border-radius: 5px;
+  position: relative;
+  transition: all 2s linear;
+}
+
+.bar-1,
+.my-skills {
+     width: 69%;
+    margin: 6px auto 5px;
+}
+
+.bar-inner {
+  width: 0;
+  height: 30px;
+  line-height: 35px;
+  background: #db3a34;
+  border-radius: 5px 0 0 5px;
+}
+
+.bar-percent {
+  position: absolute;
+  right: 10px;
+  top: 1px;
+  font-size: 18px;
+  color: black;
+}
+
+
+
+#contact{
+  background-image: url('https://macinteract.com/wp-content/uploads/2016/02/footer-background.jpg') ;
+  font-family: 'Roboto', sans-serif;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-device-width: 300px) {
+  #contact {
+    background-attachment: scroll;
+  }
+}
+
+@media only screen and (max-device-width: 300px) {
+  #skills {
+    background-attachment: scroll;
+  }
+}
+
+
+.well h3{
+  font-size: 24px;
+  color: #009fff;
+}
+
+
+
+#contact button{
+  margin-top: 10px;
+  color: white;
+  width: 45%;
+
+
+}
+
+#contact .row{
+  padding-top: 0px;
+  margin-bottom:0px;
+  margin-right: 0px; 
+  margin-left: 0px; 
+}
+
+
+
+@media (max-width: 768px) { 
+  #contact iframe {
+    margin-bottom: 15px;
+  }
+
+}
+.accent-1{
+  text-align: center;
+
+}
+.accent-1 h3{
+  padding-bottom: 1px;
+  color: #009fff;
+  font-size: 25px;
+}
+@media (min-width: 992px){
+  .col-md-7 {
+    width: 67.33333333%;
+
+    padding-right: 20px;
+
+  }
+}  
+.col-md-7 {
+
+ padding-top: 20px;
+}
+
+.md-form{
+  color: #D3D3D3;
+  font-size: 15px;
+
+}
+.md-textarea{
+  width: 100% !important;
+}
+.buttons{
+  padding-top: 5px;
+  margin-bottom: 0px;
+  text-align: center;
+
+
+}
+
+.button1{
+
+  font-size:0.875em;
+  
+  left:-60px;
+  margin-top:15px;
+  width:100%;
+  background-color: #f44336;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button2 {
+  font-size:0.875em;
+  left:-60px;
+  margin-top:15px;
+  width:100%;
+  background-color:black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button3 {
+  font-size:0.875em;
+  left:-60px;
+  margin-top:15px;
+  width:100%;
+  background-color: #627AAC;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button3 a{
+  padding-left: 0px !important;
+  padding-right: 2px !important;
+
+}
+.button4 {
+  margin-right: 3px;
+  font-size:0.875em;
+  left:-60px;
+  margin-top:15px;
+  width:100%;
+  background-color: #3B5998;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+#button4 {
+
+  color: white;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+
+}
+@media (min-width: 1200px){
+  .col-lg-5 {
+    width: 28.666667%;
+  }
+}
+.navbar-default .navbar-nav>li>a {
+  color: #009fff;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+.navbar-toggle span.icon-bar {
+  transition: all 0.15s;
+}
+
+.navbar-toggle span:nth-child(2) {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggle span:nth-child(3) {
+  opacity: 0;
+}
+
+.navbar-toggle span:nth-child(4) {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggle.collapsed span:nth-child(2),
+.navbar-toggle.collapsed span:nth-child(4) {
+  transform: rotate(0);
+}
+
+.navbar-toggle.collapsed span:nth-child(3) {
+  opacity: 1;
+}
+
