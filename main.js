@@ -18,24 +18,6 @@ var scrollp=0;
   });
 }(jQuery));
 
-// function initMap() {
-//   var map = new google.maps.Map(document.getElementById('map'), {
-//     center: {lat: 52.1787455, lng: 21.003591599999936},
-//     zoom: 17,
-//     mapTypeId: 'satellite'
-//   });
-//   map.setTilt(45);
-//     var marker = new google.maps.Marker({
-//          animation: google.maps.Animation.BOUNCE,
-//           position: {lat: 52.1787455, lng: 21.003591599999936},
-//           map: map,
-//            title: 'Hello World!'
-
-//         });
-//       }
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
 $(document).ready(function(){
   $('a[href^="#"]').on('click',function (e) {
       e.preventDefault();
@@ -48,5 +30,13 @@ $(document).ready(function(){
       }, 900, 'swing', function () {
           window.location.hash = target;
       });
+  });
+});
+
+jQuery(document).ready(function(){
+  jQuery('.bar').each(function(){
+    jQuery(this).find('.bar-inner').animate({
+      width:jQuery(this).attr('data-width')
+    },3000);
   });
 });
