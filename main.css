@@ -7,12 +7,12 @@ body{
 
 footer{
   border-bottom:2px solid black;
-  font-size: 25px;
+  font-size: 15px;
   padding-top: 2px;
   text-align: center;
   color: #009fff;
   margin: 0%;
-  font-family: "Brush Script MT", Brush Script Std, cursive, sans-serif
+  font-family: "Avantgarde", TeX Gyre Adventor, URW Gothic L, sans-serif
 }
 
 .navbar-fixed-top{
@@ -63,7 +63,7 @@ ul.navbar-nav li a:hover:not(.active) {
   left: 10%;
   animation-duration:2s;
   color: #D3D3D3;
-  font-size:4vw;
+  font-size:3vw;
   font-weight: bold;
 
 }
@@ -109,7 +109,7 @@ a{
 }
 
 #skills{
-  background-image: url('http://www.tokkoro.com/picsup/394352-wood-wallpaper-hd-backgrounds-images.jpg') ;
+  background-image: url('https://macinteract.com/wp-content/uploads/2016/02/footer-background.jpg') ;
   font-family: 'Roboto', sans-serif;
   background-attachment: fixed;
   background-position: center;
@@ -142,7 +142,7 @@ h2 {
 .bar-1,
 .my-skills {
      width: 69%;
-    margin: 10px auto 11px;
+    margin: 6px auto 5px;
 }
 
 .bar-inner {
@@ -164,7 +164,7 @@ h2 {
 
 
 #contact{
-  background-image: url('http://www.tokkoro.com/picsup/394352-wood-wallpaper-hd-backgrounds-images.jpg') ;
+  background-image: url('https://macinteract.com/wp-content/uploads/2016/02/footer-background.jpg') ;
   font-family: 'Roboto', sans-serif;
   background-attachment: fixed;
   background-position: center;
@@ -176,12 +176,12 @@ h2 {
     background-attachment: scroll;
   }
 }
+
 @media only screen and (max-device-width: 300px) {
   #skills {
     background-attachment: scroll;
   }
 }
-
 
 
 .well h3{
@@ -219,7 +219,7 @@ h2 {
 
 }
 .accent-1 h3{
-  padding-bottom: 15px;
+  padding-bottom: 1px;
   color: #009fff;
   font-size: 25px;
 }
