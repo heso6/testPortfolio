@@ -126,7 +126,7 @@ h2 {
 .title {
     font-family: 'Open Sans', sans-serif;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 13px;
   color: #db3a34;
 }
 
@@ -142,7 +142,7 @@ h2 {
 .bar-1,
 .my-skills {
      width: 69%;
-    margin: 10px auto 11px;
+    margin: 6px auto 5px;
 }
 
 .bar-inner {
@@ -171,13 +171,17 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media only screen and (max-device-width: 355px) {
+@media only screen and (max-device-width: 300px) {
   #contact {
     background-attachment: scroll;
   }
 }
 
-
+@media only screen and (max-device-width: 300px) {
+  #skills {
+    background-attachment: scroll;
+  }
+}
 
 
 .well h3{
@@ -196,8 +200,8 @@ h2 {
 }
 
 #contact .row{
-  padding-top: 20px;
-  margin-bottom:15px;
+  padding-top: 0px;
+  margin-bottom:0px;
   margin-right: 0px; 
   margin-left: 0px; 
 }
@@ -215,7 +219,7 @@ h2 {
 
 }
 .accent-1 h3{
-  padding-bottom: 15px;
+  padding-bottom: 1px;
   color: #009fff;
   font-size: 25px;
 }
